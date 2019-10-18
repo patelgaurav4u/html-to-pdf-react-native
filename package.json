@@ -1,6 +1,6 @@
 {
   "name": "html-to-pdf-react-native",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "scripts": {
     "start": "node_modules/react-native/packager/packager.sh"
   },
@@ -13,5 +13,6 @@
     "WKWebView"
   ],
   "author": "Gaurav Patel <patelgaurav4u@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage":"https://github.com/patelgaurav4u/html-to-pdf-react-native"
 }
