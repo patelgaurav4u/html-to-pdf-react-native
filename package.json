@@ -1,0 +1,17 @@
+{
+  "name": "html-to-pdf-react-native",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "description": "Convert html strings to PDF documents using React Native with support of iOS new Webkit framework",
+  "keywords": [
+    "html",
+    "pdf",
+    "react-native",
+    "iOS-webkit",
+    "WKWebView"
+  ],
+  "author": "Gaurav Patel <patelgaurav4u@gmail.com>",
+  "license": "MIT"
+}
