@@ -1,4 +1,4 @@
-# react-native-html-to-pdf
+# html-to-pdf-react-native
 
 Convert html strings to PDF documents using React Native 
 
@@ -25,8 +25,8 @@ Convert html strings to PDF documents using React Native
 - Edit `android/settings.gradle` to included
 
 ```java
-include ':react-native-html-to-pdf'
-project(':react-native-html-to-pdf').projectDir = new File(rootProject.projectDir,'../node_modules/react-native-html-to-pdf/android')
+include ':html-to-pdf-react-native'
+project(':html-to-pdf-react-native').projectDir = new File(rootProject.projectDir,'../node_modules/html-to-pdf-react-native/android')
 ```
 
 - Edit `android/app/build.gradle` file to include
@@ -34,7 +34,7 @@ project(':react-native-html-to-pdf').projectDir = new File(rootProject.projectDi
 ```java
 dependencies {
   ....
-  compile project(':react-native-html-to-pdf')
+  compile project(':html-to-pdf-react-native')
 
 }
 ```
@@ -43,7 +43,7 @@ dependencies {
 
 ```java
 // import the package
-import com.christopherdro.htmltopdf.RNHTMLtoPDFPackage;
+import com.gauravp.htmltopdf.RNHTMLtoPDFPackage;
 
 // include package
 new MainReactPackage(),
@@ -61,7 +61,7 @@ import {
   View,
 } from 'react-native';
 
-import RNHTMLtoPDF from 'react-native-html-to-pdf';
+import RNHTMLtoPDF from 'html-to-pdf-react-native';
 
 export default class Example extends Component {
   async createPDF() {
