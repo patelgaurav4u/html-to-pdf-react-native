@@ -216,7 +216,7 @@ RCT_EXPORT_METHOD(convert:(NSDictionary *)options
         _rejectBlock(RCTErrorUnspecified, nil, RCTErrorWithMessage(error.description));
     }
 }
-- (void)webViewDidFinishLoad:(UIWebView *)awebView
+- (void)webViewDidFinishLoad:(WKWebView *)awebView
 {
     
 }
